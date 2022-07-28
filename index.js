@@ -68,6 +68,7 @@ const keahlian = {
 const getElementMySkills = document.querySelector('.chd-fnt');
 const getElementForBackEnd = document.querySelector('.chd-bck');
 const getElementPorto = document.querySelector('.prt-lnk');
+const getElementPengalaman = document.querySelector('.prt-pnglm')
 let count = 0;
 
 keahlian.frontEnd.forEach((data, index) => {
@@ -97,6 +98,15 @@ keahlian.backEnd.forEach(data => {
 
 const portofolio = [
 	{
+		title: "My-Ebooks",
+		link: "./details/my-ebooks.html",
+		id:2291021,
+		image:"./image/newbooks.png",
+		live:false,
+		username:"Aryaa",
+		password:"arya7272"
+	},
+	{
 		title: "Movie List",
 		link: "https://mymovielist.vercel.app/",
 		id:2948201,
@@ -107,7 +117,7 @@ const portofolio = [
 	},
 	{
 		title: "Pangasari",
-		link: "https://pangasari.vercel.app/",
+		link: "./details/pangasari.html",
 		id:2928123,
 		live: true,
 		image:"./image/pangasari.png",
@@ -126,6 +136,38 @@ portofolio.forEach(data => {
 
 })
 
+const pengalaman = [
+	{
+		jenis: "Internship",
+		tahun: "Maret 2022 - Juni 2022",
+		detail: "Saya magang di perusahaan PT Teknovo Industri Digital sebagai seorang Front-end Developer, di sana saya dibimbing oleh ketua kelompok/senior fullstack di perusahaan Teknovo yang bertugas untuk membimbing para anggota Internship. Dalam sebuah kelompok yang memilki anggota 13 orang diberikan tugas untuk membuat website, dalam satu kelompok tersebut dibagi 2 bagian yaitu Front-end dan Back-end, saya masuk ke dalam bagian Front-end. Dan mendapatkan tugas untuk membuat Login, Register, dan Lost Password. Serta mengimplementasikan google login sebagai salah satu opsi untuk masuk.",
+		teknologi: "NextJs, NextAuth, Typescript, CahkraUi, next-i18next, React Query"
+	},
+	{
+		jenis:"Freelancer",
+		tahun: "Januari 2021 - Sampai Sekarang",
+		detail: "Ketika dalam proses belajar sebagai seorang web developer saya mencoba mengasah kemampuan saya dengan menjadi seorang freelancer. Saya mendapatkan tugas atau project untuk membuat website/page di salah satu pengembang teknologi NFT untuk game atau disebut wakaspace page yang saya buat adalah Dashboard, Marketplace, Detail Product, Streaming, Video, Events, Login, serta membuat bagian landing page dari wakaspace menjadi responsive.",
+		teknologi: "Bootstrap, HTML"
+	},
+	{
+		jenis:"Projek Pribadi",
+		tahun:"-",
+		detail: "Untuk meningkatkan kemampuan saya sebagai web developer saya mencoba untuk membuat projek pribadi, projek tersebut antaralain My Movie List, Pangasari, My Ebooks, dan Marketplae(Dalam Proses Pengembangan).",
+		teknologi: "NextJs, ReactJs, NodeJs, Axios, MongoDb, MySQL, Sequelize, Redux, React-Router, Multer, Firestorage, TailwindCss."
+	}
+]
+pengalaman.forEach(data => {
+	let newElement = document.createElement('div');
+	newElement.classList.add('prt-cnt-pnglm');
+	let elemntInf = (`<div class="prt-chd-pnglm">
+		<h3>${data.jenis}</h3>
+		<span>Tahun: ${data.tahun}</span>
+		<p>${data.detail}</p>
+		<span>Teknologi: ${data.teknologi}</span>
+	</div>`);
+	newElement.innerHTML = elemntInf;
+	getElementPengalaman.appendChild(newElement)
+})
 // Meng-animasikan element ketika scroll
 
 const observer = new IntersectionObserver(entries => {
@@ -238,3 +280,24 @@ function animate() {
 }
 
 animate();
+
+
+const tesds = "ha";
+const lot = "bo"
+console.log(tesds + lot)
+
+
+
+
+const artistsAndSongs = {
+    "Keyakizaka46": ["Silent Majority"],
+    "Blackpink": ["How You Like That", "Ice Cream"],
+    "JKT48": ["Rapsodi", "Heavy Rotation"],
+    "Twice": ["What is Love?"],
+}
+
+artistsAndSongs["Babymetal"] = ["Gimme chocolate"];
+delete artistsAndSongs["Keyakizaka46"];
+artistsAndSongs["Blackpink"].push("Rose - Gone");
+
+console.log(artistsAndSongs);
