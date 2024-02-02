@@ -138,6 +138,12 @@ portofolio.forEach(data => {
 
 const pengalaman = [
 	{
+		jenis:"Bekerja (PT. Alba Digital Teknologi)",
+		tahun:"September 2022 - Now",
+		detail:"Mengimplementasikan fitur-fitur atau mengembangkan website dari awal menggunakan teknologi React JS, Next Js, TailwindCss, Cahkar Ui, dan lainnya, memastikan pengembangan antarmuka yang interaktif, responsif, dan efisien. Mengoptimasikan kinerja web untuk meningkatkan kecepatan dan efisiensi website. ",
+		teknologi:"NextJs, ReactJs, Typescript, React Query, Redux, dll."
+	},
+	{
 		jenis: "Internship",
 		tahun: "Maret 2022 - Juni 2022",
 		detail: "Saya magang di perusahaan PT Teknovo Industri Digital sebagai seorang Front-end Developer, di sana saya dibimbing oleh ketua kelompok/senior fullstack di perusahaan Teknovo yang bertugas untuk membimbing para anggota Internship. Dalam sebuah kelompok yang memilki anggota 13 orang diberikan tugas untuk membuat website, dalam satu kelompok tersebut dibagi 2 bagian yaitu Front-end dan Back-end, saya masuk ke dalam bagian Front-end. Dan mendapatkan tugas untuk membuat Login, Register, dan Lost Password. Serta mengimplementasikan google login sebagai salah satu opsi untuk masuk.",
@@ -145,7 +151,7 @@ const pengalaman = [
 	},
 	{
 		jenis:"Freelancer",
-		tahun: "Januari 2021 - Sampai Sekarang",
+		tahun: "-",
 		detail: "Ketika dalam proses belajar sebagai seorang web developer saya mencoba mengasah kemampuan saya dengan menjadi seorang freelancer. Saya mendapatkan tugas atau project untuk membuat website/page di salah satu pengembang teknologi NFT untuk game atau disebut wakaspace page yang saya buat adalah Dashboard, Marketplace, Detail Product, Streaming, Video, Events, Login, serta membuat bagian landing page dari wakaspace menjadi responsive.",
 		teknologi: "Bootstrap, HTML"
 	},
