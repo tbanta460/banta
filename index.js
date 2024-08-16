@@ -98,6 +98,33 @@ keahlian.backEnd.forEach(data => {
 
 const portofolio = [
 	{
+		title: "Moves",
+		link: "./details/moves.html",
+		id:5124123,
+		image:"./image/moves/moves.png",
+		live:true,
+		username:"",
+		password:""
+	},
+	{
+		title: "HRIS",
+		link: "./details/hris.html",
+		id:4213123,
+		image:"./image/hris/hris.png",
+		live:true,
+		username:"",
+		password:""
+	},
+	{
+		title: "Tryou(Quiz)",
+		link: "./details/tryout.html",
+		id:5124123,
+		image:"./image/tryout/tryout.png",
+		live:true,
+		username:"",
+		password:""
+	},
+	{
 		title: "My-Ebooks",
 		link: "./details/my-ebooks.html",
 		id:2291021,
@@ -208,7 +235,7 @@ const elts = {
 };
 
 const texts = [
-    "T. Banta",
+    "Teuku Banta",
     "Karollah",
     "Front-End",
     "Web",

@@ -175,6 +175,7 @@ a{
 	width: 80%;
 	margin: auto;
 	grid-gap: 50px;
+	justify-content: space-around;
 }
 .prt-chd{
 	border: 1px solid rgb(0,0,0, 0.5);
