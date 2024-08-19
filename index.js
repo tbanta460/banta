@@ -125,6 +125,15 @@ const portofolio = [
 		password:""
 	},
 	{
+		title: "Sunedu",
+		link: "./details/sunedu.html",
+		id:5214123,
+		image:"./image/sunedu/sunedu.png",
+		live:true,
+		username:"",
+		password:""
+	},
+	{
 		title: "My-Ebooks",
 		link: "./details/my-ebooks.html",
 		id:2291021,
@@ -317,7 +326,6 @@ animate();
 
 const tesds = "ha";
 const lot = "bo"
-console.log(tesds + lot)
 
 
 
@@ -333,4 +341,3 @@ artistsAndSongs["Babymetal"] = ["Gimme chocolate"];
 delete artistsAndSongs["Keyakizaka46"];
 artistsAndSongs["Blackpink"].push("Rose - Gone");
 
-console.log(artistsAndSongs);
