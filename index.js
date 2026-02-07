@@ -174,8 +174,8 @@ portofolio.forEach(data => {
 
 const pengalaman = [
 	{
-		jenis:"Bekerja (PT. Alba Digital Teknologi)",
-		tahun:"September 2022 - Now",
+		jenis:"PT. Alba Digital Teknologi",
+		tahun:"September 2022 - Juli 2025",
 		detail:"Mengimplementasikan fitur-fitur atau mengembangkan website dari awal menggunakan teknologi React JS, Next Js, TailwindCss, Cahkar Ui, dan lainnya, memastikan pengembangan antarmuka yang interaktif, responsif, dan efisien. Mengoptimasikan kinerja web untuk meningkatkan kecepatan dan efisiensi website. ",
 		teknologi:"NextJs, ReactJs, Typescript, React Query, Redux, dll."
 	},
