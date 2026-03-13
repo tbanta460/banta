@@ -95,73 +95,73 @@ keahlian.backEnd.forEach(data => {
 	createElement.innerHTML = newElement;
 	getElementForBackEnd.appendChild(createElement);
 })
+const portofolio = []
+// const portofolio = [
+// 	{
+// 		title: "Moves",
+// 		link: "./details/moves.html",
+// 		id:5124123,
+// 		image:"./image/moves/moves.png",
+// 		live:true,
+// 		username:"",
+// 		password:""
+// 	},
+// 	{
+// 		title: "HRIS",
+// 		link: "./details/hris.html",
+// 		id:4213123,
+// 		image:"./image/hris/hris.png",
+// 		live:true,
+// 		username:"",
+// 		password:""
+// 	},
+// 	{
+// 		title: "Tryou(Quiz)",
+// 		link: "./details/tryout.html",
+// 		id:5124123,
+// 		image:"./image/tryout/tryout.png",
+// 		live:true,
+// 		username:"",
+// 		password:""
+// 	},
+// 	{
+// 		title: "Sunedu",
+// 		link: "./details/sunedu.html",
+// 		id:5214123,
+// 		image:"./image/sunedu/sunedu.png",
+// 		live:true,
+// 		username:"",
+// 		password:""
+// 	},
+// 	{
+// 		title: "My-Ebooks",
+// 		link: "./details/my-ebooks.html",
+// 		id:2291021,
+// 		image:"./image/newbooks.png",
+// 		live:false,
+// 		username:"Aryaa",
+// 		password:"arya7272"
+// 	},
+// 	{
+// 		title: "Movie List",
+// 		link: "https://mymovielist.vercel.app/",
+// 		id:2948201,
+// 		image:"./image/movie.png",
+// 		live: true,
+// 		username: "-",
+// 		password: "-"
+// 	},
+// 	{
+// 		title: "Pangasari",
+// 		link: "./details/pangasari.html",
+// 		id:2928123,
+// 		live: true,
+// 		image:"./image/pangasari.png",
+// 		username: "asdasd",
+// 		password: "darkblack"
+// 	},
 
-const portofolio = [
-	{
-		title: "Moves",
-		link: "./details/moves.html",
-		id:5124123,
-		image:"./image/moves/moves.png",
-		live:true,
-		username:"",
-		password:""
-	},
-	{
-		title: "HRIS",
-		link: "./details/hris.html",
-		id:4213123,
-		image:"./image/hris/hris.png",
-		live:true,
-		username:"",
-		password:""
-	},
-	{
-		title: "Tryou(Quiz)",
-		link: "./details/tryout.html",
-		id:5124123,
-		image:"./image/tryout/tryout.png",
-		live:true,
-		username:"",
-		password:""
-	},
-	{
-		title: "Sunedu",
-		link: "./details/sunedu.html",
-		id:5214123,
-		image:"./image/sunedu/sunedu.png",
-		live:true,
-		username:"",
-		password:""
-	},
-	{
-		title: "My-Ebooks",
-		link: "./details/my-ebooks.html",
-		id:2291021,
-		image:"./image/newbooks.png",
-		live:false,
-		username:"Aryaa",
-		password:"arya7272"
-	},
-	{
-		title: "Movie List",
-		link: "https://mymovielist.vercel.app/",
-		id:2948201,
-		image:"./image/movie.png",
-		live: true,
-		username: "-",
-		password: "-"
-	},
-	{
-		title: "Pangasari",
-		link: "./details/pangasari.html",
-		id:2928123,
-		live: true,
-		image:"./image/pangasari.png",
-		username: "asdasd",
-		password: "darkblack"
-	},
-
-]
+// ]
 
 portofolio.forEach(data => {
 	let newElement = document.createElement('div');
